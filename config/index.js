@@ -95,8 +95,8 @@ export const USER_CONFIG = {
       ]
     },
     {
-      name: "老婆1",
-      id: "",
+      name: "刘琴",
+      id: "oC9RN5uo37-FNVGaPz1tH0P9_uSE",
       useTemplateId: "",
       province: "",
       city: "",
@@ -139,7 +139,7 @@ export const USER_CONFIG = {
    */
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "kgqaBTop2As_Vu46Gi9toSPNNFCbou3PQO9K5SCxS0E",
   
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -147,7 +147,7 @@ export const USER_CONFIG = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oC9RN5k_FaOk0qiGSn5xoJ8bD1LE",
     },
     // 你可以不断按格式往下增加
     // ...
