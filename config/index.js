@@ -64,7 +64,7 @@ export const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oC9RN5uo37-FNVGaPz1tH0P9_uSE",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "	kgqaBTop2As_Vu46Gi9toSPNNFCbou3PQO9K5SCxS0E",
+      useTemplateId: "XCHCOn2pIdSvoxINRQGZJTDRM3NE7FiQot5woT3hg8w",
       // 所在省份
       province: "安徽",
       // 所在城市
@@ -79,15 +79,13 @@ export const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "刘琴", "year": "2000", "date": "03-29"},
-        {"type": "节日", "name": "纪念日", "year": "2022", "date": "06-26"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "刘琴", "year": "2000", "date": "05-03"},
-        {"type": "节日", "name": "认识的日子", "year": "2022", "date": "02-28"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-08"},
+        {"keyword": "love_day", date: "2022-06-26"},
         // 结婚纪念日
         {"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
@@ -97,30 +95,6 @@ export const USER_CONFIG = {
     {
       name: "刘琴",
       id: "oC9RN5uo37-FNVGaPz1tH0P9_uSE",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆3",
-      id: "",
       useTemplateId: "",
       province: "",
       city: "",
@@ -160,9 +134,9 @@ export const USER_CONFIG = {
   /** 天气相关 */
   
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "安徽",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "六安",
   
   /** 重要节日相关 */
   
